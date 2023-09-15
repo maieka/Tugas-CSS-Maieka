@@ -1,0 +1,121 @@
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    padding-top: 40px;
+    display: flex;
+}
+
+.gambar {
+    width: 35%;
+}
+
+.img-thumb {
+    width: 100%;
+}
+
+.card-wrapper {
+    width: 44%;
+}
+
+.card {
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
+
+.logo {
+    width: 180px;
+
+}
+
+.form {
+    margin-top: 25px;
+
+}
+
+.or {
+    margin: 5px 0;
+}
+
+.or:before,
+.or:after {
+    content: '-----------------------';
+    color: rgba(128, 128, 128, .7);
+    margin: 0 10px;
+}
+
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    color: rgb(85, 0, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #0095f6;
+    border: 0px solid transparent;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.login {
+    color: #01017a;
+    text-decoration: none;
+}
+
+.link-forgot {
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+.link-signup {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    width: 60px;
+    display: flex;
+    text-align: center;
+}
+
+#app {
+    width: 160px;
+}
+
+#play {
+    width: 180px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
